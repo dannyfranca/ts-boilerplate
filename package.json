@@ -29,7 +29,6 @@
     "report:coverage:text": "nyc report --reporter=text",
     "coverage": "coveralls",
     "type-check": "tsc --noEmit",
-    "type-check:watch": "yarn run type-check -- --watch",
     "compile": "tsc",
     "compile:watch": "tsc -w",
     "compile:types": "tsc --emitDeclarationOnly",
