@@ -22,6 +22,10 @@ yarn
 
 Experimental environment. Could change many times betnween versions, at least until v1.0 arrives.
 
+### Bugs
+
+Circle CI not playing nice right now. More tests needed until a decent starting point with TypeScript, Cypress and CI (Circle or Travis)
+
 ## Libs
 
 * [TypeScript](https://www.typescriptlang.org) - Compiler
