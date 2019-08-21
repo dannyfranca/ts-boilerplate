@@ -34,11 +34,6 @@
     "compile:types": "tsc --emitDeclarationOnly",
     "publish": "npm publish --access public"
   },
-  "files": [
-    "README.md",
-    "LICENSE",
-    "lib/"
-  ],
   "keywords": [
     "typescript",
     "ts",
