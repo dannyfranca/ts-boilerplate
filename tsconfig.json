@@ -2,8 +2,8 @@
   /* Basic Options */
   "compilerOptions": {
     "incremental": true,
-    "target": "esnext",
-    "module": "commonjs",
+    "module": "es6",
+    "target": "es6",
     "lib": [
       "es2017",
       "es7",
@@ -12,11 +12,11 @@
       "esnext",
       "esnext.asynciterable"
     ],
-//    "allowJs": true,
+    //    "allowJs": true,
     //    "checkJs": true,
     //    "jsx": "preserve",
     "declaration": true,
-    "declarationMap": true,
+    //    "declarationMap": true,
     //    "sourceMap": true,
     //    "outFile": "./",
     "outDir": "./lib",
@@ -30,8 +30,8 @@
     //    "isolatedModules": true,
 
     "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    //    "noImplicitAny": true,
+    //    "strictNullChecks": false,
     //    "strictFunctionTypes": true,
     //    "strictBindCallApply": true,
     //    "strictPropertyInitialization": true,
@@ -41,14 +41,14 @@
     //    "noUnusedParameters": true,
     //    "noImplicitReturns": true,
     //    "noFallthroughCasesInSwitch": true,
-    //    "moduleResolution": "node",
+    "moduleResolution": "node",
     "baseUrl": ".",
     //    "paths": {},
     //    "rootDirs": [],
     //    "typeRoots": [],
     //    "types": [],
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
     //    "preserveSymlinks": true,
     //    "allowUmdGlobalAccess": true,
     //    "sourceRoot": "",
@@ -56,7 +56,7 @@
     //    "inlineSourceMap": true,
     //    "inlineSources": true
 
-    //    "experimentalDecorators": true,
+    "experimentalDecorators": true
     //    "emitDecoratorMetadata": true
   },
   "include": [
@@ -65,6 +65,7 @@
   "exclude": [
     "test",
     "node_modules",
-    "dist"
+    "dist",
+    "lib"
   ]
 }

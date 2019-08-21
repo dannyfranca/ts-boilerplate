@@ -1,3 +1,4 @@
+# see https://github.com/cypress-io/circleci-orb
 version: 2
 jobs:
   build:
@@ -22,17 +23,17 @@ jobs:
           paths:
             - "node_modules"
 
-      # Lint
+      # Type Check
       - run:
           name: Type Check
           command: yarn type-check
 
-      # Tests
+      # Cypress Tests
       - run:
           name: Tests
-          command: yarn jest
+          command: yarn test
 
-      # Coverage
+      # Coverage Soon
       - run:
-          name: Coverage
-          command: yarn codecov
+          name: Tests
+          command: yarn coverage

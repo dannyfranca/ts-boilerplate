@@ -9,6 +9,9 @@ node_modules
 coverage
 lib
 dist
+.nyc_output
+cypress/screenshots
+cypress/videos
 
 .DS_Store
 .idea
