@@ -1,6 +1,6 @@
 {
   "name": "@dannyfranca/ts-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Typescript boilerplate with Linting, E2E/Unit Testing, CI, Git Hooks and Code Coverage",
   "license": "MIT",
   "author": {
