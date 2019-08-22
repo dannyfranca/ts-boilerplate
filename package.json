@@ -20,8 +20,8 @@
   },
   "scripts": {
     "test": "start-test 1234 cypress:run",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "dev": "cross-env NODE_ENV=test start-test 1234 cypress:open",
     "start": "cross-env NODE_ENV=development parcel serve --no-cache public/index.html",
     "build": "cross-env NODE_ENV=production parcel build public/index.html",
