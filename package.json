@@ -27,7 +27,7 @@
     "build": "cross-env NODE_ENV=production parcel build public/index.html",
     "report:coverage": "nyc report --reporter=html",
     "report:coverage:text": "nyc report --reporter=text",
-    "coverage": "cat coverage/lcov.info | coveralls",
+    "coverage": "codecov",
     "type-check": "tsc --noEmit",
     "compile": "tsc",
     "compile:watch": "tsc -w",

@@ -25,13 +25,13 @@ jobs:
           name: Type Check
           command: yarn type-check
       - run:
-          name: Tests
+          name: Test
           command: yarn test
       - store_artifacts:
           path: /coverage
       - run:
-          name: Coverage
+          name: Write Coverage Report
           command: yarn report:coverage:text
       - run:
-          name: Coverage
+          name: Report Coverage
           command: yarn coverage
