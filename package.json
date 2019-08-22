@@ -36,11 +36,25 @@
   },
   "keywords": [
     "typescript",
-    "ts",
-    "cypress",
-    "ci",
+    "starter",
+    "template",
     "boilerplate",
-    "parcel"
+    "library",
+    "node",
+    "typescript-eslint",
+    "parcel",
+    "parcel-bundler",
+    "cypress",
+    "istanbul",
+    "nyc",
+    "travis-ci",
+    "circle-ci",
+    "codecov",
+    "coverage",
+    "husky",
+    "ts",
+    "ts-node",
+    "ci"
   ],
   "bugs": {
     "url": "https://github.com/dannyfranca/ts-boilerplate/issues"
@@ -56,7 +70,7 @@
     "@types/node": "^12.7.2",
     "@typescript-eslint/parser": "^2.0.0",
     "babel-plugin-istanbul": "^5.2.0",
-    "coveralls": "^3.0.6",
+    "codecov": "^3.5.0",
     "cross-env": "^5.2.0",
     "cypress": "^3.4.1",
     "cypress-promise": "^1.0.2",
