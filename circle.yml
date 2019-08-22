@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cypress/base:12
+      - image: cypress/base:10
         environment:
           TERM: xterm
     working_directory: ~/app
@@ -27,6 +27,11 @@ jobs:
       - run:
           name: Tests
           command: yarn test
+      - store_artifacts:
+          path: /coverage
+      - run:
+          name: Coverage
+          command: yarn report:coverage:text
       - run:
           name: Coverage
           command: yarn coverage

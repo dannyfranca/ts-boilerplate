@@ -5,13 +5,18 @@ addons:
   apt:
     packages:
       - libgconf-2-4
+  artifacts:
+    paths:
+      - coverage
 cache:
-  npm: true
   directories:
     - ~/.cache
 install:
   - yarn install
 script:
-  - yarn type-check
-  - yarn test
-  - yarn coverage
+  - yarn run type-check
+  - yarn run test
+  - yarn run coverage
+  after_success:
+    - yarn run report:coverage:text
+    - yarn run coverage
